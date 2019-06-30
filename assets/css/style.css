@@ -183,6 +183,18 @@ section{
 .card-body .card-title{
     font-weight: bold;
 }
+.media-events{
+    position: relative;
+    padding-bottom: 0px;
+
+}
+
+
+.media-events .btn-sman4{
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+}
 
 
 @media (min-width: 992px) {
