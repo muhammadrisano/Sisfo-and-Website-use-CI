@@ -7,7 +7,8 @@ class Website extends CI_Controller
         $data['title'] = "Website SMAN 4 Padang";
         $this->load->model('Berita', 'ber');
         $data['berita'] = $this->ber->getBeritaFront();
-
+        $this->load->model('Prestasi');
+        $data['prestasi'] = $this->Prestasi->getPrestasiFront();
         $this->load->view('front-page/header.php', $data);
         $this->load->view('front-page/about.php', $data);
         $this->load->view('front-page/berita.php', $data);
