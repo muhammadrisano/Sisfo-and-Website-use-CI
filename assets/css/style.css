@@ -1,0 +1,193 @@
+.jumbotron{
+    margin-top: 50px;
+    background-image: url('../images/sman4.jpg');
+    background-size: cover;
+
+    height: 470px;
+    background-repeat: no-repeat;
+    
+
+}
+.jumbotron .display-4{
+    font-size: 50px;
+
+}
+.navbar-nav a{
+    font-weight: bold; 
+    margin-left: 10px;
+  
+}
+.navbar img{
+    margin-right: 10px;
+}
+.bg-ungu{
+    background-color: #1a72a5;
+}
+.menu-tengah{
+    max-width: 630px;
+    height: 120px;
+    background-color: white;
+    margin: -80px auto 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+.menu-tengah img{
+    display: inline-block;
+
+    margin: 14px 1px -35px 1px ;
+    filter: drop-shadow(0px 0px 2px gray);
+}
+.menu-tengah p{
+    line-height: 100px;
+}
+.menu-tengah img:hover{
+    filter: drop-shadow(0px 0px 7px yellow);
+}
+hr.garis-judul{
+    width: 300px;
+    border:2px solid gray;
+}
+
+.bg-gray{
+    background-color: #e2dede;
+}
+section{
+    min-height: 450px;
+    padding-bottom: 25px;
+}
+#berita{
+    background-image: url(../images/template/gravel.png);
+}
+.judul-berita {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.media h5{
+    font-size: 17px;
+}
+.media h5 span{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.media h6{
+    font-size: 15px;
+    font-weight: bold;
+}
+.media h6 span{
+    font-size: 15px;
+    font-weight:normal;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+#footer{
+    height: 100px;
+    margin-top: 5px;
+    line-height: 100px;
+    text-align: center;
+}
+/* .list-unstyled{
+    border: 1px solid black;
+} */
+
+.list-unstyled img{
+    max-width: 300px;
+}
+
+.list-unstyled .media-body a{
+    margin-bottom: 0;
+    /* padding-bottom: 0; */
+}
+.garis-judul{
+    margin-bottom: 50px;
+}
+section{
+    padding-top: 20px;
+}
+
+.kotak-about{
+    box-shadow: 0px 20px 7px rgba(0, 0, 0, .75);
+    padding: 20px;
+    color: #3c3c3f;
+}
+.list-unstyled{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
+    margin-bottom: 25px;
+    position: relative;
+    /* mar */
+}
+.list-unstyled .btn-sman4{
+    position: absolute;
+    right: 8px;
+    bottom: 2px;
+}
+.list-unstyled h5{
+    font-weight: bold;
+}
+#prestasi{
+    background-image: url(../images/template/kejuaran-sman4.jpg)!important;
+    background-size: cover;
+}
+.prestasi .card{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+    opacity: .85;
+}
+#events{
+    background-image: url(../images/template/gravel.png)
+}
+.emas{
+    color: rgb(255, 219, 14);
+    font-size: 200px;
+}
+.perak{
+    color: #bcc0ad;
+    font-size: 200px;
+}
+.perunggu{
+    color: #684926;
+    font-size: 200px;
+}
+#about{
+    height: 550px !important;
+}
+.btn-sman4{
+    border-radius: 20px;
+    background-color: #8d1f84;
+    color: white;
+    border: 2px solid rgb(109, 10, 112);
+}
+.btn-sman4:hover{
+    background-color: #b941af;
+    color: white;
+    border: 2px solid rgb(157, 35, 161);
+}
+
+
+@media (min-width: 992px) {
+    
+    .media img{
+        display: inline;
+    }
+    .media-body{
+        margin-left: -40px;
+    }
+    #about{
+        height: 450px !important;
+    }
+    .menu-tengah{
+        height: 100px !important;
+    }
+   
+
+ }
