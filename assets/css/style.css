@@ -161,9 +161,6 @@ section{
     color: #684926;
     font-size: 200px;
 }
-#about{
-    height: 550px !important;
-}
 .btn-sman4{
     border-radius: 20px;
     background-color: #8d1f84;
@@ -208,11 +205,13 @@ section{
     .media-body{
         margin-left: -40px;
     }
-    #about{
-        height: 450px !important;
-    }
+
     .menu-tengah{
         height: 100px !important;
+    }
+    #berita
+    {
+        margin-top: -150px;
     }
    
 
