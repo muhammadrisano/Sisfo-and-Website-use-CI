@@ -59,6 +59,9 @@ section{
     min-height: 450px;
     padding-bottom: 25px;
 }
+#about{
+    min-height: 570px;
+}
 #berita{
     background-image: url(../images/template/gravel.png);
 }
