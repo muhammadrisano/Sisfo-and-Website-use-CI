@@ -8,4 +8,9 @@ class Berita extends CI_Model
         $query = "SELECT `berita`.*,`kategori`.`nama_kategori` FROM `berita` INNER JOIN `kategori` ON `berita`.`id_kategori`=`kategori`.`id_kategori` ORDER BY `berita_id`DESC LIMIT 5";
         return $this->db->query($query)->result_array();
     }
+    public function detailBerita($id)
+    {
+        $query = "SELECT `berita`.*,`kategori`.`nama_kategori` FROM `berita` INNER JOIN `kategori` ON `berita`.`id_kategori`=`kategori`.`id_kategori` WHERE `berita_id` = '$id'";
+        return $this->db->query($query)->result_array();
+    }
 }
