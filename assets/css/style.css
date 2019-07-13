@@ -34,10 +34,10 @@
     font-size: 13px;
     font-weight: bold;
     padding: 0 5px;
+    z-index: 99999;
 }
 .menu-tengah img{
     display: inline-block;
-
     margin: 14px 1px -35px 1px ;
     filter: drop-shadow(0px 0px 2px gray);
 }
@@ -120,6 +120,7 @@ section{
     box-shadow: 0px 20px 7px rgba(0, 0, 0, .75);
     padding: 20px;
     color: #3c3c3f;
+    background-color: white;
 }
 .list-unstyled{
     background-color: white;
@@ -188,15 +189,21 @@ section{
     padding-bottom: 0px;
 
 }
-
-
 .media-events .btn-sman4{
     position: absolute;
     right: 35px;
     bottom: 0px;
 }
 
+body{
+    background-image: url(../images/template/background_sma4.jpg);
+    background-attachment:fixed;
 
+}
+.detail-berita{
+    width: 90%;
+    color: red !important;
+}
 @media (min-width: 992px) {
     
     .media img{
@@ -219,6 +226,5 @@ section{
         bottom: 0px;
     }
     
-   
 
  }

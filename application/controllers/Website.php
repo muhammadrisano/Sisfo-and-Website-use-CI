@@ -19,4 +19,14 @@ class Website extends CI_Controller
         $this->load->view('front-page/events.php', $data);
         $this->load->view('front-page/footer.php', $data);
     }
+
+    public function detailberita($id)
+    {
+        $this->load->model('Berita');
+        $data['title'] = "Website SMAN 4 Padang";
+        $data['detailberita'] = $this->Berita->detailBerita($id);
+        $this->load->view('front-page/header.php', $data);
+        $this->load->view('front-page/pages/detailberita', $data);
+        $this->load->view('front-page/footer.php', $data);
+    }
 }
