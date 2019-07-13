@@ -21,7 +21,7 @@
                                      <div class="col-md-7">
                                          <div class="media-body pl-2">
                                              <h5 class="mt-0 mb-1">Kategori : <span> <?= $brt['nama_kategori']; ?></span></h5>
-                                             <?= $brt['isi']; ?>
+                                             <?= substr($brt['isi'], 0, 200) . "..."; ?>
                                              <hr>
                                              <h6 class="mt-0 mb-1">Tanggal : <span><?= $brt['created_at']; ?></span></h6>
                                              <h6 class="mt-0 mb-1">Dilihat Oleh : <span><?= $brt['jumlah_lihat']; ?> Orang</span></h6>
