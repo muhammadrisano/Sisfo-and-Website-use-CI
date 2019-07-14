@@ -15,7 +15,7 @@
 
                                 <div class="row">
                                     <div class="col-md-5">
-                                        <img src="<?= base_url(); ?>assets/images/berita/<?= $brt['foto']; ?>" class="mr-3 img-thumbnail" alt="...">
+                                        <img src="<?= base_url(); ?>assets/images/berita/<?= $brt['foto']; ?>" class="mr-3 img-thumbnail" alt="Foto Berita SMA Negeri 4 Padang">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="media-body pl-2">
