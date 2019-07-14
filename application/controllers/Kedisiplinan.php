@@ -20,4 +20,18 @@ class Kedisiplinan extends CI_Controller
         $this->load->view('kedisiplinan/atribut.php', $data);
         $this->load->view('front-page/footer.php', $data);
     }
+    public function upacara()
+    {
+        $data['title'] = "Website SMAN 4 Padang";
+        $this->load->view('front-page/header.php', $data);
+        $this->load->view('kedisiplinan/upacara.php', $data);
+        $this->load->view('front-page/footer.php', $data);
+    }
+    public function berprilaku()
+    {
+        $data['title'] = "Website SMAN 4 Padang";
+        $this->load->view('front-page/header.php', $data);
+        $this->load->view('kedisiplinan/berprilaku.php', $data);
+        $this->load->view('front-page/footer.php', $data);
+    }
 }

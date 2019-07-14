@@ -2,29 +2,123 @@
     <div class="container">
         <div class="kedisiplinan-kehadiran">
             <div class="detail-berita-judul">
-                <h2>Kedisiplinan Kehadiran</h2>
+                <h2>Kedisiplinan Atribut</h2>
                 <hr>
             </div>
             <div class="detail-berita-body kedisiplinan-kehadiran-body">
                 <h4>
-                    Kedisiplinan
+                    Atribut Sekolah
                 </h4>
-                <p>
-                    <ul>
-                        <li>
-                            Bel Berbunyi jam 6.45 dan Proses PBM dimulai jam 7 pagi, sebelum proses PBM dimulai peserta didik diwajibkan menyanyikan lagu wajib disetiap kelas
-                        </li>
-                        <li>
-                            Piket kelas pada hari itu wajib hadir jam 6.30 untuk mencek kebersihan ruang kelas luar dan dalam
-                        </li>
-                        <li>
-                            Piket kelas yang bertugas hari berikutnya membersihkan ruang kelas setelah selesai PBM pada hari itu (Pulang Sekolah)
-                        </li>
-                        <li>
-                            Peserta didik wajib menjaga kebersihan kelas dan lingkungan sekolah di sekitar kelasnya
-                        </li>
-                    </ul>
-                </p>
+                <br>
+                <table class="table">
+                    <caption>List of users</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">No</th>
+                            <th scope="col">Hari</th>
+                            <th scope="col">Atribut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Senin & Selasa</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Pakaian putih abu abu dengan atribut lengkap, lambang (sekolah dan PMR), lokasi
+                                        dan nama.
+                                    </li>
+                                    <li>
+                                        Memakai pakaian dalam (singlet putih) tidak boleh memakai kaos oblong dan
+                                        sejenisnya
+                                    </li>
+                                    <li>
+                                        Sepatu hitam polos
+                                    </li>
+                                    <li>
+                                        Kaos kaki putih polos
+                                    </li>
+                                    <li>
+                                        Khusus laki laki pakai ikat pinggang hitam bermerk SMA 4 Padang, baju rapi masuk
+                                        kedalam
+                                    </li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Rabu</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Pakaian baju batik seragam SMA 4 Padang
+                                    </li>
+                                    <li>
+                                        Memakai pakaian dalam (singlet putih) tidak boleh memakai kaos oblong dan
+                                        sejenisnya
+                                    </li>
+                                    <li>
+                                        Sepatu hitam polos
+                                    </li>
+                                    <li>
+                                        Kaus kaki putih polos
+                                    </li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Kamis</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Memakai baju basiba
+                                    </li>
+                                    <li>
+                                        Sepatu hitam
+                                    </li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Jum'at</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Pakaian seragam muslim sekolah
+                                    </li>
+                                    <li>
+                                        Sepatu warna bebas, khusus perempuan sepatu tali dan hak rendah
+                                    </li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Sabtu</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        (Pengembangan diri)
+                                    </li>
+                                    <li>
+                                        Pakaian pramuka
+                                    </li>
+                                    <li>
+                                        Untuk kegiatan ekstrakurikuler menyesuaikan dengan ektrakurikuler masing-masing
+                                    </li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
 
             </div>
 
