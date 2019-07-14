@@ -302,6 +302,22 @@ padding-bottom: 70px;
     background-color: white;
 }
 
+.kedisiplinan-kehadiran{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 40px;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+}
+
+.kedisiplinan-kehadiran-body{
+    width: 100%;
+    border: 3px solid grey;
+    border-radius: 15px;
+    padding: 40px;
+    background-color: white;
+}
+
 
 @media (min-width: 992px) {
     

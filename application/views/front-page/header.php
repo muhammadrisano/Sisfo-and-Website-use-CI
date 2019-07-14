@@ -31,6 +31,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile Sekolah</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/profile/akreditasi'; ?>">Akreditasi</a>
                             <a class="dropdown-item" href="<?= base_url() . 'index.php/profile/sejarah'; ?>">Sejarah</a>
                             <a class="dropdown-item" href="<?= base_url() . 'index.php/profile/visimisi'; ?>">visi dan Misi</a>
                             <a class="dropdown-item" href="<?= base_url() . 'index.php/profile/tujuan'; ?>">Tujuan</a>
