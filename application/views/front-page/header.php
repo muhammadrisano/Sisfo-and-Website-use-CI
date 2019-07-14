@@ -46,15 +46,19 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Guru</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Guru & TU</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Data Guru & TU</a>
+                            <a class="dropdown-item" href="#">Prestasi Guru</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Siswa </a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Siswa</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Data Siswa</a>
+                            <a class="dropdown-item" href="#">Prestasi Akademik</a>
+                            <a class="dropdown-item" href="#">Prestasi Non Akademik</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Fitur </a>
@@ -62,14 +66,14 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kedisiplinan</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Kehadiran</a>
-                            <a class="dropdown-item" href="#">Atribut Sekolah</a>
-                            <a class="dropdown-item" href="#">Upacara Bendera</a>
-                            <a class="dropdown-item" href="#">Disiplin Berperilaku</a>
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/kedisiplinan/kehadiran'; ?>">Kehadiran</a>
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/kedisiplinan/atribut'; ?>">Atribut Sekolah</a>
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/kedisiplinan/upacara'; ?>">Upacara Bendera</a>
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/kedisiplinan/berprilaku'; ?>">Disiplin Berperilaku</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#">Aplikasi Mobile</a>
                     </li>
                 </ul>
 
