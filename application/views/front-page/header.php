@@ -12,24 +12,45 @@
     <link rel="stylesheet" href="<?= base_url(); ?>assets/vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
     <title><?= $title; ?></title>
+
+
 </head>
 
 <body>
     <!--nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-ungu fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?= base_url(); ?>">
                 <img src="<?= base_url(); ?>assets/images/logo/logo-sman4-kecil.gif" width="30" height="30" class="d-inline-block align-top" alt="">SMA Negeri 4 Padang</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
+
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Profil</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile Sekolah</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/profile/sejarah'; ?>">Sejarah</a>
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/profile/visimisi'; ?>">visi dan Misi</a>
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/profile/tujuan'; ?>">Tujuan</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Guru</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Berita</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/website/kategori/1'; ?>">Pengumuman</a>
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/website/kategori/2'; ?>">Berita</a>
+                            <a class="dropdown-item" href="<?= base_url() . 'index.php/website/kategori/3'; ?>">Informasi</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Guru</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Siswa </a>
@@ -37,14 +58,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Fitur </a>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Alumni</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kedisiplinan</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Kehadiran</a>
+                            <a class="dropdown-item" href="#">Atribut Sekolah</a>
+                            <a class="dropdown-item" href="#">Upacara Bendera</a>
+                            <a class="dropdown-item" href="#">Disiplin Berperilaku</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
+
             </div>
         </div>
     </nav>
