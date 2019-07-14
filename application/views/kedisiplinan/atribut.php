@@ -11,7 +11,7 @@
                 </h4>
                 <br>
                 <table class="table">
-                    <caption>List of users</caption>
+                    <caption>SMA Negeri 4 Padang</caption>
                     <thead>
                         <tr>
                             <th scope="col">No</th>
