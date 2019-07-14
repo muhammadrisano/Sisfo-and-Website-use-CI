@@ -29,4 +29,13 @@ class Website extends CI_Controller
         $this->load->view('front-page/pages/detailberita', $data);
         $this->load->view('front-page/footer.php', $data);
     }
+    public function kategori($id)
+    {
+        $this->load->model('Berita');
+        $data['title'] = "Website SMAN 4 Padang";
+        $data['kategoriberita'] = $this->Berita->kategoriBerita($id);
+        $this->load->view('front-page/header.php', $data);
+        $this->load->view('front-page/pages/kategoriberita', $data);
+        $this->load->view('front-page/footer.php', $data);
+    }
 }
