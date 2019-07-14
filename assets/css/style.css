@@ -5,6 +5,7 @@
 
     height: 470px;
     background-repeat: no-repeat;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.75) !important;
     
 
 }
@@ -235,6 +236,73 @@ padding-bottom: 70px;
     bottom: 20px;
 
 }
+.profile-sejarah{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 40px;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+}
+.profile-sejarah-body img{
+    margin: 10px auto;
+}
+.profile-sejarah-body{
+    width: 100%;
+    border: 3px solid grey;
+    border-radius: 15px;
+    background-color: white;
+    padding: 40px;
+}
+
+.profile-visimisi{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 40px;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+}
+
+.profile-visimisi-body{
+    width: 100%;
+    border: 3px solid grey;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: white;
+}
+
+.profile-tujuan{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 40px;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+}
+
+.profile-tujuan-body{
+    width: 100%;
+    border: 3px solid grey;
+    border-radius: 15px;
+    padding: 40px;
+    background-color: white;
+}
+
+.profile-akreditasi{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 40px;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+}
+
+.profile-akreditasi-body{
+    width: 100%;
+    border: 3px solid grey;
+    border-radius: 15px;
+    padding: 40px;
+    background-color: white;
+}
+
+
 @media (min-width: 992px) {
     
     .media img{
@@ -255,9 +323,7 @@ padding-bottom: 70px;
         position: absolute;
         right: 22px;
         bottom: 0px;
-    }
-   
-    
+    }   
  }
 
  
