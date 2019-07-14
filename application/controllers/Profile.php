@@ -28,4 +28,11 @@ class Profile extends CI_Controller
         $this->load->view('profile-page/tujuan.php', $data);
         $this->load->view('front-page/footer.php', $data);
     }
+    public function akreditasi()
+    {
+        $data['title'] = "Website SMAN 4 Padang";
+        $this->load->view('front-page/header.php', $data);
+        $this->load->view('profile-page/akreditasi.php', $data);
+        $this->load->view('front-page/footer.php', $data);
+    }
 }
