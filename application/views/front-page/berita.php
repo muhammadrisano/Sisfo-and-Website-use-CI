@@ -27,7 +27,7 @@
                                              <h6 class="mt-0 mb-1">Dilihat Oleh : <span><?= $brt['jumlah_lihat']; ?> Orang</span></h6>
                                              <h6 class="mt-0 mb-1">Penulis : <span><?= $brt['penulis']; ?></span></h6>
                                              <br><br>
-                                             <a href="http://" class="btn btn-sman4"><i class="fas fa-search-plus"></i> Lihat Selengkapnya</a>
+                                             <a href="<?= base_url() . 'index.php/website/detailberita/' . $brt['berita_id']; ?>" class="btn btn-sman4"><i class="fas fa-search-plus"></i> Lihat Selengkapnya</a>
                                          </div>
                                      </div>
                                  </div>
